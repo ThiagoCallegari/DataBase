@@ -1,0 +1,9 @@
+package br.com.callegari.alunos.model;
+
+public class Aluno {
+
+	private int ra;
+	private String nome;
+	private String email;
+	private String telefone;
+}

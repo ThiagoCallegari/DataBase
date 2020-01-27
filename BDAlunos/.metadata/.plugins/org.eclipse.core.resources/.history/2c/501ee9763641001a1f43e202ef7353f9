@@ -1,0 +1,19 @@
+#OBRIGATORIO
+#Definindo a URL do BD
+spring.datasource.url = jdbc:mysql://localhost:3306/sistemaalunos 
+#Definindo o usuario
+spring.datasource.username = root
+#Definindo a senha
+spring.datasource.password = admin
+#Definindo o dialeto
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySql5Dialect
+
+#OPCIONAL
+#Mostra as instruções SQL geradas automaticamente
+spring.jpa.show_sql = true
+#Testa a conexão de tempo em tempo
+spring.datasource.testWhileIdle = true
+#Comando que testa a conexão
+spring.datasource.validationQuery = SELECT1
+#Atualiza/Cria as tabelas caso elas não existam na base
+spring.jpa.hibernate.ddl-auto = update

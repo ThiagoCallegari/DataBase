@@ -1,0 +1,24 @@
+package br.com.callegari.alunos.servicos;
+
+import br.com.callegari.alunos.model.Aluno;
+
+public class ServicoAlunos implements IAlunoService{
+
+	@Override
+	public void gravarAlunoNoBanco(Aluno aluno) {
+		
+		
+	}
+
+	@Override
+	public void atualizarAlunoNoBanco(Aluno aluno) {
+		
+		
+	}
+
+	@Override
+	public Aluno recuperarAlunoPorId(int id) {
+		
+		return null;
+	}	
+}

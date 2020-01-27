@@ -1,0 +1,5 @@
+package br.com.callegari.alunos.controller;
+
+public class RecoveryAluno {
+
+}

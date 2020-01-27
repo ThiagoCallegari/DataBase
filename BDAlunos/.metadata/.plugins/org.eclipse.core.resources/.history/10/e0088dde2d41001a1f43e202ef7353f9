@@ -1,0 +1,5 @@
+package br.com.callegari.alunos.dao;
+
+public interface IUsuarioBD {
+
+}

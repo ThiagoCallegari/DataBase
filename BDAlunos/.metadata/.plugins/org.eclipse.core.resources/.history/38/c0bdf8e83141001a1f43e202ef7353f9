@@ -1,0 +1,6 @@
+package br.com.callegari.alunos.servicos;
+
+public interface IAlunoService {
+
+	
+}
